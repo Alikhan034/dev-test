@@ -1,3 +1,4 @@
+import { Inter_900Black } from "@expo-google-fonts/inter";
 import { Text,View,StyleSheet } from "react-native";
 type DayListItem={
     day:number;
@@ -32,7 +33,8 @@ const styles = StyleSheet.create({
     
     txt:{
       color:'#9b4521',
-      fontSize: 50,
+      fontSize: 75,
+      fontFamily:'AmaticBold',
     }
   });
   
